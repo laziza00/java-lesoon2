@@ -272,25 +272,81 @@
 //  let c = Math.floor((a /10)%10);
 //  let d = Math.floor(a%10);
 //  let e = 0;
-//  if (i%2==1 ){
+//  if (i%2==1){
 //      e += i;
-//  } 
+//     if (b %2==1 ){
+//         e += b;
+//         if (c %2==1 ){
+//             e += c;
+//             if (d%2==1 ){
+//                 e += d;
+//              }
+//         }
+//      }     
+// } 
 //  else if (b %2==1 ){
 //     e += b;
+//       if (c %2==1 ){
+//         e += c;
+//          if (d%2==1 ){
+//             e += d;
+//          }
+//     }
 //  }
 //  else if (c %2==1  ){
 //     e += c;
+//       if (d%2==1 ){
+//         e += d;
+//      }
 //  }
 //  else if (d%2==1 ){
 //     e += d;
 //  }
-//   console.log(e);
+// console.log(e);
 
 
 
+// ================================if 19 masla
+
+//  let a = +prompt('5 xoanli son kiriting: ');
+//  let j = Math.floor(a/10000);
+//  let i = Math.floor(a /1000)%10;
+//  let b = Math.floor(a /100)%10;
+//  let c = Math.floor((a /10)%10);
+//  let d = Math.floor(a%10);
+
+// if (j> i && j>b && j>c && j>d) {
+//    console.log("katta", j);
+// }
+// else if (i>b && i>c && i>d) {
+//     console.log("katta", i);
+//  }
+
+// else if (b>i && b>c && b>d) {
+//    console.log("katta", b);
+// }
+// else if (c>i && c>b && c>d) {
+//    console.log("katta", c);
+// }
+
+// else {
+//    console.log("katta", d);
+// }
 
 
+// ======================fiz buzz
 
+// let a = +prompt("son kiriting: ")
+
+// if (a % 3== 0) {
+//    console.log("Fizz");
+// }
+//  else if (a %5==0 && a% 3!= 0) {
+//     console.log("Buzzz");
+//  }
+// else if (a%3==0 && a%5==0) {
+//    console.log("Fizz Buzz");
+// }
 
 
 // for 1 masala
@@ -538,10 +594,10 @@
 // console.log("yigindi",box);
 
 
-// for 18 masala
+// ========================for 18 masala
 
 // let a = 2;
-// let n = 5;
+// let n = 3;
 // sum = 1;
 // box = 0;
 // for (let i =1; i<=a**n; i++) {
@@ -550,5 +606,121 @@
 //     console.log(sum);
 // }
 // console.log("yigindi",box);
+
+// for =========================== 19 masala
+
+// let a = 7;
+// let sum =1;
+// for (let i=1; i<=a; i++) {
+//     sum *= i;
+// }
+// console.log(sum);
+
+// for =========================== 20 masala
+
+// let a = 4;
+// let sum =1;
+// let p= 0
+// for (let i=1; i<=a; i++) {
+//     let k =1;
+//     for (let j = 1; j<=i; j++) {
+//         k *= j;
+//    }
+//    console.log(k);
+//      sum += k;
+// }
+// console.log(sum);
+
+
+// ===============================for 21 masala
+
+// let a = 4;
+// let sum =1;
+// let p= 0
+// for (let i=1; i<=a; i++) {
+//     let k =1;
+//     for (let j = 1; j<=i; j++) {
+//         k *= j;
+//    }
+//    console.log(k);
+//      sum += 1/k;
+// }
+// console.log(sum.toFixed(1));
+
+
+// ===============================for 22 masala
+
+// let a = 4;
+// let x = 2;
+// let sum =0;
+// for (let i=1; i<=a; i++) {
+//     let k =1;
+//     for (let j = 1; j<=i; j++) {
+//        let f= k *= j;
+//        sum += (x**k)/k;
+//    }
+// }
+// console.log(sum.toFixed(1));
+
+
+
+// ===============================for 36 masala
+
+// let n = 4;
+// let k = 2;
+// let sum = 0;
+// for (let i = 0; i<=n; i++) {
+
+//     sum += i**k;
+// }
+// console.log(sum);
+
+// ==================================== for 37 masala
+
+// let n = 3;
+// let sum = 0;
+// for (let i = 1; i<=n; i++) {
+//     sum += i**i;
+// }
+// console.log(sum);
+
+
+//========================================== for 38 masala
+
+// let n= 3;
+// let sum = 0;
+
+// for (let i =1; i<=n; i++) {
+
+//     for (let j =0; j<= i; j++){
+//         sum += j **(n-j) 
+//     }
+// }
+// console.log(sum);
+
+// ================================= for 39 masala
+
+// let a= 1;
+// let b =5;
+
+// for (let i = a+1; i<b; i++) {
+//     for (let j = 1; j<=i; j++){
+//         console.log(i);
+//     }
+// }
+
+
+// for 40 masala
+
+// let a= 2;
+// let b =5;
+
+// for (let i = a; i<=b; i++) {
+//     for (let j = a; j<=i; j++){
+//         console.log(i);
+//     }
+// }
+
+
 
 
